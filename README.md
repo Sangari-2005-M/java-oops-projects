@@ -10,5 +10,11 @@ A Java program that demonstrates **Encapsulation**.
 - **Key Concepts:** Data Hiding (Private fields), Getters/Setters, and Business Logic.
 - **Functionality:** Calculates total marks and average based on subject inputs.
 
+- ### 2. Electricity Billing System
+A Java program that demonstrates **Inheritance**.
+- **Key Concepts:** Code Reusability using `extends`, Parent-Child relationship, and `super()` keyword.
+- **Functionality:** Calculates electricity bills based on specific domestic slabs.
+
+
 
 
