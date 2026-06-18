@@ -1,3 +1,4 @@
+
 public class Main {
     public static void main(String[] args) {
         
@@ -12,5 +13,16 @@ public class Main {
         System.out.println("--- EB BILLING SYSTEM ---");
         DomesticBill user1 = new DomesticBill("Sivasangari", 150);
         user1.printFinalBill();
+        System.out.println();
+
+        // Project 3: Bank Account Management
+        System.out.println("--- BANK ACCOUNT MANAGEMENT ---");
+        BankAccount account = new SavingsAccount("SAV12345", 5000.0);
+        System.out.println("Initial Balance: ₹" + account.getBalance());
+        account.deposit(1500.0);
+        account.withdraw(2000.0);
+        System.out.println("\nTrying to withdraw a large amount...");
+        account.withdraw(4000.0);
+        
     }
 }
