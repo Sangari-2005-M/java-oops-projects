@@ -19,8 +19,7 @@ A Java program that demonstrates **Abstraction** and **Polymorphism**.
 * **Key Concepts**: Abstract Classes, Method Overriding, and Polymorphic references.
 * **Functionality**: Processes deposits and enforces individual withdrawal safety constraints for distinct account variants.
 
----
-*Maintained by [Sangari-2005-M](https://github.com) © 2026*
+
 
 
 
